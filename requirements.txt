@@ -1,0 +1,19 @@
+# List of Python packages required for the chatbot API
+
+# Web framework for building your API
+Flask==3.0.3
+
+# Data manipulation and reading your CSV file
+pandas==2.2.2
+
+# For using Hugging Face's transformers library (DistilBERT model)
+transformers==4.41.2
+
+# The underlying deep learning framework (PyTorch) for your model
+torch==2.3.0
+
+# The production-ready web server for Python applications (used by Railway)
+gunicorn==22.0.0
+
+# Optional: If you ever plan to read Excel files (.xlsx) with pandas, uncomment this.
+openpyxl==3.1.2
